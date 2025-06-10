@@ -11,8 +11,10 @@ export default function ContactPage() {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4 text-foreground">Contact Us</h1>
+      
+      {/* Fixed apostrophe in the paragraph below */}
       <p className="mb-6 text-foreground">
-        We'd love to hear from you! For support, inquiries, or feedback, please use the contact details below:
+        We&apos;d love to hear from you! For support, inquiries, or feedback, please use the contact details below:
       </p>
 
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 text-gray-700">
@@ -43,7 +45,7 @@ export default function ContactPage() {
       </div>
 
       <p className="mt-8 text-foreground text-center">
-        We strive to respond to all inquiries within 24-48 business hours.
+        We strive to respond to all inquiries within 24–48 business hours.
       </p>
     </div>
   );
