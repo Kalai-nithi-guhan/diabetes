@@ -1,9 +1,9 @@
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
 // Metadata for the Contact page (this remains a Server Component feature)
 export const metadata: Metadata = {
-  title: 'Contact Us - HealthPredict AI',
-  description: 'Get in touch with the HealthPredict AI team for support, inquiries, or feedback.',
+  title: "Contact Us - HealthPredict AI",
+  description: "Get in touch with the HealthPredict AI team for support, inquiries, or feedback.",
 };
 
 // This is a Server Component by default because there's no 'use client' directive
